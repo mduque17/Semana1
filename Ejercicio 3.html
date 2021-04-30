@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 3</title>
+	<link rel="stylesheet" type="text/css" href="estiloss7.css">
+</head>
+<body class="fondo">
+<font class="l1">EJERCICIO 3</font>
+<div onmousemove="adentro(event)" onmouseout="afuera()" class="cu1" id="m1"></div>
+
+
+<div id="m" class="l2">Tu mouse esta: afuera</div>
+
+<script>
+function adentro(e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  var coor = "Posicion: (" + x + "," + y + ")";
+  document.getElementById("m").innerHTML = coor;
+  if (y=>450) {
+  	document.getElementById("m").innerHTML = "Tu mouse esta: adentro";
+  	document.getElementById("m1").className = "cu11";
+  }
+ 
+}
+function afuera() {
+  document.getElementById("m").innerHTML = "Tu mouse esta: afuera";
+  document.getElementById("m1").className = "cu1";
+}
+</script>
+</body>
+<a href="p1.html"><button class="pe1s7">PERIODO 1</button></a>
+<a href="index.html"><button class="inis7">INICIO</button></a>
+<a href="eventos.html"><button class="vols7">VOLVER</button></a>
+</html>

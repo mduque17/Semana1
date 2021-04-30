@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Final</title>
+  <link rel="stylesheet" type="text/css" href="clasef.css">
+  <script>
+    var x=10;
+    var m=0;
+  </script>
+</head>
+<body onload="posicion(); ejecutar()" onload="pusuario()"  class="fondo">
+<div class="programador"><div class="cu2" id="cuadra"></div></div>
+<div class="barra"></div>
+<div class="usuario" onmousedown="mover(event)"><div class="cu1" id="cuadrado"></div></div>
+<div class="tiempo" id="comen" onload="ejecutar()">TIEMPO:</div>
+<div class="nombre">DISPARA AL ENEMIGO</div>
+<div class="score">SCORE:</div>
+<script>
+   function posicion() {
+    
+        var py = Math.floor(Math.random() * ((400) - 8) + 8);
+        cuadra.style.top=py+"px";
+        document.getElementById('cuadra').classList.add('moviendo');
+
+      
+    }
+
+ function mover(e){
+
+    var x = event.clientX;
+    var y = event.clientY;
+    cuadrado.style.left=x;
+    cuadrado.style.top=y+"q";
+
+}
+
+ 
+    
+
+
+function comenzar() {
+    
+    if (m>=0) {
+        document.getElementById("comen").innerHTML ="TIEMPO:"+" "+m;
+        
+        }
+        m+=1;
+        }
+        function ejecutar(){
+
+  final=setInterval(comenzar,1000);
+}
+ 
+</script>
+</body></html>

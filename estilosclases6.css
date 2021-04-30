@@ -1,0 +1,60 @@
+.fondo{
+	background-color: red;
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+.fondo1{
+	background-color: blue;
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+.fondo2{
+	background-color: blue;
+	border: 2px solid pink;
+	width: 100px;
+	height: 100px;
+}
+.p1{
+	background-color: red;
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+.p2{
+	background-color: pink;
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+.cu{
+	position: absolute;
+	top: 20%;
+	width: 600px;
+	height: 350px;
+	left: 400px;
+	border: 1px solid #DC143C;
+	background-color: #F08080;
+	font-color: black;
+	font-size: 70px;
+	
+} 
+.le{
+	left: 35%;
+	top: 35%;
+	position: absolute;
+
+}
+.cu1{
+	position: absolute;
+	top: 10%;
+	width: 600px;
+	height: 450px;
+	left: 400px;
+	border: 1px solid #DC143C;
+	background-color: #F08080;
+	font-color: black;
+	font-size: 70px;
+	
+} 

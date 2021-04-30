@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora vectores</title>
+</head>
+<body class="fondo">
+<div class="fon"><br><strong>&nbsp;&nbspVECTORES</strong><BR></div><font class="l4"><strong>ACTIVIDAD SEMANA 4</strong></font>
+<head>
+	<title>vectores y formularios</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script >
+		resu=[0];
+	</script>
+</head>
+<script>
+		var sumar=function(){
+				var n1=document.getElementById("numero1");
+				var n2=document.getElementById("numero2");
+				s=Number(n1.value)+Number(n2.value);
+				console.log(s);
+				resu.push(s);
+			}
+		var ver=function(){
+			var b=document.getElementById("s");
+			var nb=document.getElementById("nb1");
+			var x=Number(nb.value);
+			b.value=resu[x]	
+
+
+		}
+	</script>
+<form><div class="cu1"><font class="l3">C A L C U L A D O R A</font></div><div class="cu">
+		<label class="l">Numero 1</label><br>
+		<input type="text" id="numero1" placeholder="Ingrese un numero" class="c1"><br><br>
+		<br>
+		<label class="l1" >Numero 2</label><br>
+		<input type="text" id="numero2" placeholder="Ingrese otro numero" class="c2" ><br><br>
+		<br>
+		<br>
+		<input type="button" value="Sumar" onclick="sumar();" class="c4">
+		<br>
+		<br>
+		<label class="l2">Resultados previos :</label><br>
+		<input type="text" id="nb1" placeholder="Valor a buscar" class="c3">
+		<input type="button" value="Ver" onclick="ver();" class="c5">
+		<input type="text" id="s" placeholder="Valor" class="c6">
+	</div>
+	</form>
+	<a href="p1.html"><button class="pe1">PERIODO 1</button></a>
+<a href="index.html"><button class="ini">INICIO</button></a>
+</body>
+</html>

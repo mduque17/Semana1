@@ -1,0 +1,420 @@
+.fondo{
+	background-image: url(f3.jpg); 
+}
+.cu{
+	position: absolute;
+	top: 25%;
+	width: 600px;
+	height: 350px;
+	left: 400px;
+	border: 1px solid #00042C;
+	background-color: #002C52;
+	color: white;
+	font-size: 75px;
+	font-family: fuente;
+	text-align: center;
+	
+} 
+.le{
+	left: 35%;
+	top: 35%;
+	position: absolute;
+
+}
+.cu1{
+	position: absolute;
+	top: 27%;
+	width: 600px;
+	height: 450px;
+	left: 400px;
+	border: 1px solid #00042C;
+	background-color: #002C52;
+	font-color: black;
+	font-size: 70px;
+	
+} 
+.cu11{
+	position: absolute;
+	top: 27%;
+	width: 600px;
+	height: 450px;
+	left: 400px;
+	border: 1px solid #00042C;
+	background-color: #9582D6;
+	font-color: black;
+	font-size: 70px;
+	
+}
+.l1{
+	position: absolute;
+	font-family: fuente;
+	font-size: 80px;
+	color: black;
+	left: 570px;
+	top: 10px;
+}
+.l2{
+	position: absolute;
+	font-family: fuente1;
+	font-size: 40px;
+	color: black;
+	left: 515px;
+	top: 95px;
+}
+.pe1s7{
+	position: fixed;
+	top: 80%;
+	left: 86%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.pe1s7:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.vols7{
+	position: fixed;
+	top: 90%;
+	left: 81%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.vols7:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.inis7{
+	position: fixed;
+	top: 90%;
+	left: 91%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.inis7:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.c{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	width: 20%;
+	height: 10%;
+
+}
+.c1{
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	width: 20%;
+	height: 10%;
+
+}
+.b{
+	position: absolute;
+	top: 31%;
+	left: 55%;
+	width: 15%;
+	height: 10%;
+	border-radius: 10px;
+	border: 2px solid #708090;
+}
+.b1{
+	position: absolute;
+	top: 61%;
+	left: 55%;
+	width: 15%;
+	height: 10%;
+	border-radius: 10px;
+	border: 2px solid #708090;
+}
+.f1{
+	position: absolute;
+	width: 100%;
+	height: 35%;
+	background-color: #4682B4;
+	color: black;
+	font-size: 30px;
+	font-family: fuente;
+	left: 0%;
+	top: 0%;
+    opacity: 0.8;
+}
+.titulo{
+	position: absolute;
+	left: 35%;
+	font-family: fuente;
+	font-size: 80px;
+	top: 10%;
+
+}
+.cuadra{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 5%;
+	top: 50%;
+
+
+}
+.cuadra1{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 36%;
+	top: 50%;
+
+
+}
+.cuadra2{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 67%;
+	top: 50%;
+
+
+}
+.sa{
+	position: absolute;
+	top: 9%;
+	left: 30%;
+	font-family: fuente1;
+	font-size: 200%;
+}
+.sa1{
+	position: absolute;
+	top: 9%;
+	left: 25%;
+	font-family: fuente1;
+	font-size: 200%;
+}
+.bo5{
+	position: relative;
+	top: 45%;
+	left: 29%;
+	width: 39%;
+	height: 30%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+	font-family: fuente;
+	font-size: 22px;
+}
+.bo5:hover{
+  background-color: #A6C4DD;
+  color: black;
+  font-size: 24px;
+  border: 2px solid white;
+  width: 40%;
+  height: 32%;
+}
+.bo51{
+	position: relative;
+	top: 45%;
+	left: 29%;
+	width: 39%;
+	height: 30%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+	font-family: fuente;
+	font-size: 22px;
+}
+.bo51:hover{
+	 background-color: #A6C4DD;
+  color: black;
+  font-size: 24px;
+  border: 2px solid white;
+  width: 40%;
+  height: 32%;
+}
+.pe1{
+	position: fixed;
+	top: 90%;
+	left: 81%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.pe1:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.ini{
+	position: fixed;
+	top: 90%;
+	left: 91%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.ini:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.pe11{
+	position: fixed;
+	top: 90%;
+	left: 81%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.pe11:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.ini1{
+	position: fixed;
+	top: 90%;
+	left: 91%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.ini1:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.cuadrado{
+	position: relative;
+	width: 100px;
+	height: 105px;
+	background-color: #002C52;
+}
+.cuadrado2{
+	position: relative;
+	width: 100px;
+	height: 105px;
+	background-color: black;
+}
+.cuadrado3{
+	position: relative;
+	width: 100px;
+	height: 105px;
+	background-color: blue;
+}
+.score{
+	position: absolute;
+	top: 10px;
+	left: 600px;
+	width: 100px;
+	height: 45px;
+	color: white;
+    font-size: 28px;
+    font-family: fuente;
+    text-align: center;
+	background-color: #9582D6;
+}
+.tiempo{
+	position: absolute;
+	top: 10px;
+	left: 740px;
+	width: 100px;
+	height: 45px;
+	color: white;
+    font-size: 28px;
+    font-family: fuente;
+    text-align: center;
+	background-color: #9582D6;
+}
+.cuadradof{
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	width: 90%;
+	height: 82%;
+	background-color: #002C52;
+}
+.cuadradop{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 7%;
+	height: 14%;
+	background-color: #9582D6;
+}
+.cuadrado1{
+	position: absolute;
+	top: 280px;
+	left: 635px;
+	width: 7%;
+	height: 14%;
+	background-color: pink;
+}
+.cuadrado2{
+	position: absolute;
+	top: 190px;
+	left: 95px;
+	width: 7%;
+	height: 14%;
+	background-color: black;
+}
+.cuadrado3{
+	position: absolute;
+	top: 400px;
+	left: 145px;
+	width: 7%;
+	height: 14%;
+	background-color: white;
+}
+.score1{
+	position: absolute;
+	top: 20px;
+	left: 600px;
+	width: 170px;
+	height: 45px;
+	color: white;
+    font-size: 28px;
+    font-family: fuente;
+    text-align: center;
+	background-color: #9582D6;
+}
+@font-face{
+	font-family: fuente;
+	src: url(BebasNeue-Regular.otf);
+}
+@font-face{
+	font-family: fuente1;
+	src: url(CaviarDreams.ttf);
+}

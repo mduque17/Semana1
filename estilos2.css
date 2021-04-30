@@ -1,0 +1,1272 @@
+@font-face{
+	font-family: fuente;
+	src: url(BebasNeue-Regular.otf);
+}
+@font-face{
+	font-family: fuente1;
+	src: url(CaviarDreams.ttf);
+}
+
+.a{
+	background-image: url(f3.jpg);   
+}
+.b{
+	width: 76%;
+	height: 41%;
+	position: absolute;
+	background-color: #F0FFF0;
+	left: 0%;
+	top: 0%;
+	
+}
+.b1{
+	position: absolute;
+	left: 8%;
+	top: 4%;
+
+	
+
+}
+.b2{
+	position: absolute;
+	left: 53%;
+	top: 7%;
+
+	
+}
+.c{
+	background-color: #F0FFF0;
+	color: black;
+	left: 25%;
+	top: 15%;
+	font-family: fuente;
+	font-size: 60px;
+	position: absolute;
+}
+.d{
+	background-color:#4682B4;
+	color: black;
+	left: 0%;
+	top: 41%;
+	font-family: fuente1;
+	font-size: 35px;
+	position: absolute;
+	width: 76%;
+	height: 66%;
+	opacity: 0.7;
+}
+.e{
+	position: absolute;
+	top: 7%;
+	left: 78%;
+	font-size: 30px;
+	font-family: fuente1;
+}
+.e1{
+	position: absolute;
+	top: 30%;
+	left: 78%;
+	font-size: 30px;
+	font-family: fuente1;
+}
+.e2{
+	position: absolute;
+	top: 53.5%;
+	left: 78%;
+	font-size: 30px;
+	font-family: fuente1;
+}
+.e3{
+	position: absolute;
+	top: 77%;
+	left: 78%;
+	font-size: 30px;
+	font-family: fuente1;
+}
+.bo{
+	position: absolute;
+	top: 17%;
+	left: 78%;
+	width: 10%;
+	height: 8%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.bo:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 10.8%;
+  height: 8.8%;
+}
+.bo1{
+	position: absolute;
+	top: 40.5%;
+	left: 78%;
+	width: 10%;
+	height: 8%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.bo1:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 10.8%;
+  height: 8.8%;
+}
+
+.bo2{
+	position: absolute;
+	top: 63.5%;
+	left: 78%;
+	width: 10%;
+	height: 8%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.bo2:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 10.8%;
+  height: 8.8%;
+}
+
+.bo3{
+	position: absolute;
+	top: 86.6%;
+	left: 78%;
+	width: 10%;
+	height: 8%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.bo3:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 10.8%;
+  height: 8.8%;
+}
+
+.bo4{
+	position: absolute;
+	top: 90%;
+	left: 78%;
+	width: 10%;
+	height: 8%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.bo4:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 10.8%;
+  height: 8.8%;
+}
+
+.bo5{
+	position: relative;
+	top: 45%;
+	left: 29%;
+	width: 42%;
+	height: 32%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.bo51{
+	position: relative;
+	top: 45%;
+	left: 29%;
+	width: 42%;
+	height: 32%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.boton4{
+	position: fixed;
+	top: 90%;
+	left: 88%;
+	width: 10%;
+	height: 8%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.boton4:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 10.8%;
+  height: 8.8%;
+}
+.pe1{
+	position: fixed;
+	top: 90%;
+	left: 81%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.pe1:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.ini{
+	position: fixed;
+	top: 90%;
+	left: 91%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.ini:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+
+.cu{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 5%;
+	top: 55%;
+
+
+}
+.cu1{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 36%;
+	top: 55%;
+
+
+}
+.cu2{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 67%;
+	top: 55%;
+
+
+}
+.cu3{
+	width: 24%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 5%;
+	top: 95%;
+
+}
+.cu4{
+	width: 24%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 33.5%;
+	top: 95%;
+
+}
+.cu5{
+	width: 24%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 62%;
+	top: 95%;
+
+}
+.cuadra{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 5%;
+	top: 50%;
+
+
+}
+.cuadra1{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 36%;
+	top: 50%;
+
+
+}
+.cuadra2{
+	width: 28%;
+	height: 30%;
+	position: absolute;
+	background-color: #2C4C66;
+	left: 67%;
+	top: 50%;
+
+
+}
+.sa{
+	position: absolute;
+	top: 9%;
+	left: 30%;
+	font-family: fuente1;
+	font-size: 200%;
+}
+.sa1{
+	position: absolute;
+	top: 9%;
+	left: 25%;
+	font-family: fuente1;
+	font-size: 200%;
+}
+.sa2{
+	position: absolute;
+	top: 9%;
+	left: 20%;
+	font-family: fuente1;
+	font-size: 200%;
+}
+.bo5:hover{
+	 background-color: #A6C4DD;
+  color: black;
+  font-size: 15px;
+  border: 2px solid white;
+  width: 41%;
+  height: 36%;
+}
+.bo51:hover{
+	 background-color: #A6C4DD;
+  color: black;
+  font-size: 15px;
+  border: 2px solid white;
+  width: 41%;
+  height: 36%;
+}
+  .f{
+
+	color: black;
+	left: 2%;
+	top: 55%;
+	font-family: fuente1;
+	font-size: 35px;
+	position: absolute;
+	
+}
+.f1{
+	position: absolute;
+	width: 100%;
+	height: 35%;
+	background-color: #4682B4;
+	color: black;
+	font-size: 30px;
+	font-family: fuente;
+	left: 0%;
+	top: 0%;
+    opacity: 0.8;
+}
+.ff1{
+	position: fixed;
+	width: 20%;
+	height: 870%;
+	background-color: #4682B4;
+	color: black;
+	font-size: 30px;
+	font-family: fuente;
+	left: 80%;
+	top: 0%;
+	opacity: 0.8;
+    
+}
+.f2{
+	position: absolute;
+	color: black;
+	font-size: 49px;
+	font-family: fuente;
+	left: 10%;
+	top: 7%;
+	
+
+}
+.f3{
+	
+	color: black;
+	left: 6%;
+	top: 22%;
+	font-family: fuente1;
+	font-size: 35px;
+	position: absolute;
+	
+}
+.f4{
+	position: absolute;
+	color: black;
+	font-size: 60px;
+	font-family: fuente;
+	left: 36%;
+	top: 36%;
+}
+.le1{
+	position: fixed;
+	top: 6.5%;
+	left: 82%;
+	font-family: fuente;
+	font-size: 400%;
+}
+.ll
+{
+	position: absolute;
+    font-family: fuente1;
+    font-style: 85%;
+    color: white;
+    left: -45%;
+}
+.ll1
+{
+	position: absolute;
+    font-family: fuente1;
+    font-style: 85%;
+    color: white;
+    left: 80%;
+}
+.ll2
+{
+	position: absolute;
+    font-family: fuente1;
+    font-style: 85%;
+    color: white;
+    left: 150%;
+}
+.ll3
+{
+	position: absolute;
+    font-family: fuente1;
+    font-style: 85%;
+    color: white;
+    left: 250%;
+}
+.ll4
+{
+	position: absolute;
+    font-family: fuente1;
+    font-style: 85%;
+    color: white;
+    left: 335%;
+}
+.ll5
+{
+	position: absolute;
+    font-family: fuente1;
+    font-style: 85%;
+    color: white;
+    left: 375%;
+}
+.ll6
+{
+	position: absolute;
+    font-family: fuente1;
+    font-style: 85%;
+    color: white;
+    left: 415%;
+}
+.fondo{
+	background-image: url(f33.jpg);
+	
+
+}
+.an{
+	position: fixed;
+	top: 1.5%;
+	left: 15.5%;
+	width: 61%;
+	height: 10%;
+	background-color: #102A3E;
+	color: white;
+	z-index: 2000;
+}
+.an1{
+	position: absolute;
+	top: 15%;
+	left: 18%;
+	width: 55%;
+	height: 70%;
+	background-color: black;
+	color: white;
+}
+
+.le2{
+	position: absolute;
+	font-color: white;
+	font-size: 160%;
+	font-family: fuente1;
+	top: 20%;
+	left: 12%;
+}
+.le3{
+	position: absolute;
+	font-color: white;
+	font-size: 70%;
+	font-family: fuente1;
+	left: 3%;
+	right: 1%;
+	top: 3%;
+	
+}
+.cong{
+	position: absolute;
+	top: 498%;
+	left: 16%;
+	width: 59.5%;
+	height: 73.5%;
+	background-color: #F8F9F9;
+	color: white;
+	z-index: 100; 
+	border:  1px solid #102A3E;
+}
+.conge{
+	position: absolute;
+	top: 18%;
+	left: 16%;
+	width: 59.5%;
+	height: 73.5%;
+	background-color:#F8F9F9 ;
+	color: white; 
+	z-index: 100; 
+	border:  1px solid #102A3E;
+}
+.congs{
+	position: absolute;
+	top: 228%;
+	left: 16%;
+	width: 59.5%;
+	height: 73.5%;
+	background-color:#F8F9F9 ;
+	color: white; 
+	z-index: 100; 
+	border:  1px solid #102A3E; 
+}
+.congc{
+	position: absolute;
+	top: 850%;
+	left: 16%;
+	width: 59.5%;
+	height: 73.5%;
+	background-color:#F8F9F9 ;
+	color: white; 
+	z-index: 100; 
+	border:  1px solid #102A3E; 
+}
+.con1{
+	position: absolute;
+	top: 75%;
+	left: 20%;
+	width: 60%;
+	height: 50%;
+	display: none;
+	z-index: 100px;
+}
+.con2{
+	position: absolute;
+	top: 20%;
+	left: 18%;
+	width: 56%;
+	height: 70%;
+	background-color: #102A3E;
+	color: white; 
+	z-index: 400;
+	font-color: white;
+	font-size: 130%;
+	font-family: fuente1;
+}
+.con3{
+	position: absolute;
+	top: -1320%;
+	left: 10%;
+	width: 1285%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1;
+
+}
+.cons1{
+	position: absolute;
+	top: -1220%;
+	left: 10%;
+	width: 1285%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1;
+
+}
+.cons2{
+	position: absolute;
+	top: -1120%;
+	left: -400%;
+	width: 1285%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1;
+
+}
+.cons3{
+	position: absolute;
+	top: -1120%;
+	width: 1285%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1;
+
+}
+.conp{
+	position: absolute;
+	top: -1300%;
+	left: -90%;
+	width: 985%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 120%;
+	font-family: fuente1;
+
+}
+.conp1{
+	position: absolute;
+	top: -890%;
+	left: -350%;
+	width: 985%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 120%;
+	font-family: fuente1;
+
+}
+.conp2{
+	position: absolute;
+	top: -1000%;
+	left: -600%;
+	width: 985%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 90%;
+	font-family: fuente1;
+
+}
+.conp3{
+	position: absolute;
+	top: -890%;
+	left: -860%;
+	width: 985%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 90%;
+	font-family: fuente1;
+
+}
+.con4{
+	position: absolute;
+	top: -1400%;
+	left: -128%;
+	width: 1000%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 90%;
+	font-family: fuente1;
+
+}
+.con5{
+	position: absolute;
+	top: -1300%;
+	left: -938%;
+	width: 980%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	margin-left: 1%;
+	padding: 5%;
+	font-family: fuente1;
+
+}
+.csu{
+	position: absolute;
+	top: -1300%;
+	left: -138%;
+	
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	margin-left: 1%;
+	padding: 5%;
+	font-family: fuente1;
+
+}
+.con22{
+	position: absolute;
+	top: 230%;
+	left: 18%;
+	width: 56%;
+	height: 70%;
+	background-color: #102A3E;
+	color: white; 
+	z-index: 450;
+	font-color: white;
+	font-size: 120%;
+	font-family: fuente1;
+}
+.con222{
+	position: absolute;
+	top: 500%;
+	left: 18%;
+	width: 56%;
+	height: 70%;
+	background-color: #102A3E;
+	color: white; 
+	font-color: white;
+	font-size: 120%;
+	font-family: fuente1;
+	z-index: 800;
+}
+.con2222{
+	position: absolute;
+	top: 650%;
+	left: 18%;
+	width: 56%;
+	height: 70%;
+	background-color: #102A3E;
+	color: white; 
+	font-color: white;
+	font-size: 120%;
+	font-family: fuente1;
+	z-index: 700;
+}
+.con22222{
+	position: absolute;
+	top: 852%;
+	left: 18%;
+	width: 56%;
+	height: 70%;
+	background-color: #102A3E;
+	color: white; 
+	z-index: 600;
+	font-color: white;
+	font-size: 120%;
+	font-family: fuente1;
+}
+.consi{
+	position: absolute;
+	top: 1052%;
+	left: 18%;
+	width: 56%;
+	height: 70%;
+	background-color: #102A3E;
+	color: white; 
+	z-index: 600;
+	font-color: white;
+	font-size: 120%;
+	font-family: fuente1;
+	z-index: 300;
+}
+.consib{
+	position: absolute;
+	top: 1050%;
+	left: 16%;
+	width: 59.5%;
+	height: 73.5%;
+	background-color:#F8F9F9 ;
+	color: white; 
+	z-index: 100; 
+	border:  1px solid #102A3E; 
+}
+.conc{
+	position: absolute;
+	top: -1300%;
+	left: -500%;
+	width: 1705%;
+	height: 985%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1; 
+}
+.consi2{
+	position: absolute;
+	top: -1300%;
+	left: -100%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1; 
+}
+.consi3{
+	position: absolute;
+	top: -1300%;
+	left: -210%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1; 
+}
+.consi4{
+	position: absolute;
+	top: -1400%;
+	left: -400%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1; 
+	z-index: 400;
+}
+.conbu{
+	position: absolute;
+	top: 1452%;
+	left: 16%;
+	width: 60%;
+	height: 95%;
+	background-color: #102A3E;
+	color: white; 
+	z-index: 600;
+	font-color: white;
+	font-size: 120%;
+	font-family: fuente1;
+	z-index: 300;
+}
+.conbub{
+	position: absolute;
+	top: 1450%;
+	left: 14%;
+	width: 63.5%;
+	height: 98.5%;
+	background-color:#F8F9F9 ;
+	color: white; 
+	z-index: 100; 
+	border:  1px solid #102A3E; 
+}
+.conbu1{
+	position: absolute;
+	top: -1400%;
+	left: -200%;
+	color: white; 
+	display: none;
+	font-color: white;
+	font-size: 100%;
+	font-family: fuente1; 
+	z-index: 400;
+}
+
+
+.bs11{
+	position: absolute;
+	top: 90%;
+	left:6%;
+	width:7%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bs11:hover .con3{
+	display: block;
+}
+.bs111{
+	position: absolute;
+	top: 90%;
+	left: 80%;
+	width:7%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bs111:hover .con5{
+	display: block;
+}
+.bs1111{
+	position: absolute;
+	top: 90%;
+	left: 80%;
+	width:7%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bs1111:hover .con5{
+	display: block;
+}
+
+.bs11{
+	position: absolute;
+	top: 90%;
+	left:6%;
+	width:7%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bs11:hover .con2222{
+	display: block;
+}
+.bsu{
+	position: absolute;
+	top: 90%;
+	left:8%;
+	width:8%;
+	height: 7%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bsu:hover .cons1{
+	display: block;
+}
+.bsu2{
+	position: absolute;
+	top: 90%;
+	left:64%;
+	width:25%;
+	height: 7%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bsu2:hover .csu{
+	display: block;
+}
+.bsc{
+	position: absolute;
+	top: 85%;
+	left:45%;
+	width:8%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bsc:hover .conc{
+	display: block;
+}
+.bbu{
+	position: absolute;
+	top: 90%;
+	left:45%;
+	width:14%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bbu:hover .conbu1{
+	display: block;
+}
+.bsi{
+	position: absolute;
+	top: 85%;
+	left:25%;
+	width:14%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bsi:hover .consi2{
+	display: block;
+}
+.bsi1{
+	position: absolute;
+	top: 85%;
+	left:45%;
+	width:14%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bsi1:hover .consi3{
+	display: block;
+}
+.bsi2{
+	position: absolute;
+	top: 85%;
+	left:65%;
+	width:14%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bsi2:hover .consi4{
+	display: block;
+}
+
+
+
+.is1{
+	height: 48%; 
+	width: 40%; 
+	left: 30%; 
+	top: 90%; 
+	position: absolute;
+}
+
+.bs2{
+	position: absolute;
+	top: 90%;
+	left: 18%;
+	width:8%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bs2:hover .cons3{
+	display: block;
+}
+.bs2{
+	position: absolute;
+	top: 90%;
+	left: 18%;
+	width:8%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bs2:hover .con4{
+	display: block;
+}
+.bsu1{
+	position: absolute;
+	top: 90%;
+	left: 35%;
+	width:10%;
+	height: 7%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bsu1:hover .cons2{
+	display: block;
+}
+
+.le3{
+	position: absolute;
+	top: 83%;
+	font-size: 120%;
+	font-family: fuente;
+	left: 12%;
+	color: white;
+}
+.bp{
+	position: absolute;
+	top: 88%;
+	left:15%;
+	width:7%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 100%;
+	font-family: fuente;
+}
+.bp:hover .conp{
+	display: block;
+}
+.bp1{
+	position: absolute;
+	top: 88%;
+	left:37%;
+	width:7%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 100%;
+	font-family: fuente;
+}
+.bp1:hover .conp1{
+	display: block;
+}
+.bp2{
+	position: absolute;
+	top: 88%;
+	left:57%;
+	width:7%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bp2:hover .conp2{
+	display: block;
+}
+.bp3{
+	position: absolute;
+	top: 88%;
+	left:77%;
+	width:7%;
+	height: 6%;
+	background-color: white;
+	color: black;
+	border-radius: 7px; 
+	border: solid blue 1px ;
+	font-size: 120%;
+	font-family: fuente;
+}
+.bp3:hover .conp3{
+	display: block;
+}
+.titulo{
+	position: absolute;
+	left: 35%;
+	font-family: fuente;
+	font-size: 80px;
+	top: 10%;
+
+}
+
+
+.botonp2{
+	position: absolute;
+	top: 55%;
+	left: 35%;
+	width:15%;
+	height: 20%;
+	background-color: white;
+	font-family: fuente;
+	color: black;
+	font-size: 25px;
+	border-radius: 19px;
+	border: 2px solid #708090;
+
+}
+
+.botonp2:hover{
+  background-color: #356C99;
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  width: 16%;
+  height: 21%;
+}
+.botonp22{
+	position: absolute;
+	top: 55%;
+	left: 55%;
+	width:15%;
+	height: 20%;
+	background-color: white;
+	font-family: fuente;
+	color: black;
+	font-size: 25px;
+	border-radius: 19px;
+	border: 2px solid #708090;
+
+}
+
+.botonp22:hover{
+  background-color: #356C99;
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  width: 16%;
+  height: 21%;
+}

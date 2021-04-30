@@ -1,0 +1,130 @@
+.fondo{
+	background-image: url(f3.jpg); 
+}
+.programador{
+	position: absolute;
+	left: 2%;
+	top: 18%;
+	width: 955px;
+	height: 500px;
+	background-color: #9582D6;
+}
+.barra{
+	position: absolute;
+	left: 72.5%; 
+	top: 18%;
+	width: 0.9%;
+	height: 80%;
+	background-image: url(f3.jpg); 
+	
+}
+.usuario{
+	position: absolute;
+	left: 73%;
+	right:2%; 
+	top: 18%;
+	width: 340px;
+	height: 500px;
+	background-color: #000A41;
+	
+}
+.cu1{
+	position: absolute;
+	width: 21%;
+	height: 15%;
+	background-color:#9582D6;
+	border: 2px solid #00415C;
+	
+
+}
+
+.cu2{
+	position: relative;
+	width: 7%;
+	height: 15%;
+	background-color: white;
+	z-index: 100;
+	border: 2px solid #00415C;
+
+}
+
+
+.score{
+	position: absolute;
+	top: 10px;
+	left: 900px;
+	width: 100px;
+	height: 45px;
+	color: white;
+    font-size: 28px;
+    font-family: fuente;
+    text-align: center;
+	background-color: #9582D6;
+}
+.tiempo{
+	position: absolute;
+	top: 10px;
+	left: 360px;
+	width: 130px;
+	height: 45px;
+	color: white;
+    font-size: 28px;
+    font-family: fuente;
+    text-align: center;
+	background-color: #9582D6;
+}
+.nombre{
+	position: absolute;
+	top: 10px;
+	left: 570px;
+	width: 230px;
+	height: 45px;
+	color: white;
+    font-size: 28px;
+    font-family: fuente;
+    text-align: center;
+	background-color: #9582D6;
+}
+
+.ini{
+	position: absolute;
+	top: 102%;
+	left: 91%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.ini:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.pe11{
+	position: absolute;
+	top: 102%;
+	left: 81%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.pe11:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+@font-face{
+	font-family: fuente;
+	src: url(BebasNeue-Regular.otf);
+}
+@font-face{
+	font-family: fuente1;
+	src: url(CaviarDreams.ttf);
+}

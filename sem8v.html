@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>semana8v</title>
+	<link rel="stylesheet" type="text/css" href="estiloss7.css">
+	<script>
+		 var x=0;
+         var y=0;
+         var m=60; 
+	</script>
+</head>
+
+<body class="fondo" onkeypress="teclado()" onload="ejecutar()">
+<div class="cuadradof">
+	<div class="cuadradop" id="cuadra"></div>
+</div>
+
+<div class="cuadrado1" id=""></div>
+<div class="cuadrado2" id=""></div>
+<div class="cuadrado3" id=""></div>
+<div class="score1" id="comen">TIEMPO: 0</div>
+<script>
+	function comenzar() {
+		
+		if (m<0) {
+			clearInterval(final);
+
+		}
+        m-=1;
+		document.getElementById("comen").innerHTML ="TIEMPO:"+" "+m;
+	}
+function ejecutar(){
+
+	final=setInterval(comenzar,1000);
+}
+	function teclado(){
+
+ if (event.code=="KeyJ") { 
+ x=x+15;
+ cuadra.style.left=x+"px";
+
+}
+ if (event.code=="KeyG")
+  {
+  x=x-15;
+  cuadra.style.left=x+"px";
+ }
+ if (event.code=="KeyH")
+  {
+  y=y+15;
+  cuadra.style.top=y+"px";
+ }
+  if (event.code=="KeyY")
+  {
+  y=y-15;
+  cuadra.style.top=y+"px";
+ }
+
+
+ 
+} 
+</script>
+</body>
+</html>

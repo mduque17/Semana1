@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 2</title>
+	<link rel="stylesheet" type="text/css" href="estiloss7.css">
+	<script>
+		var m=1;
+		var n=10;
+	</script>
+</head>
+<body onload="ejecutar()" class="fondo">
+<font class="l1">EJERCICIO 2</font>
+<script>
+	function ejecutar(){
+	final=setInterval(comenzar,1000);
+}
+	function comenzar() {
+	if (m==5) {
+			
+			document.getElementById("comenzar").innerHTML = n;
+			final=setInterval(contar,1000);
+
+			
+		}
+		m+=1;
+
+	}
+	function contar() {
+		
+		
+		if (n==0) {
+			clearInterval(final);
+			final=setInterval(acabe,1000);
+		}
+		
+       document.getElementById("comenzar").innerHTML = n;	
+       n=n-1;
+   }
+   function acabe() {
+	clearInterval(final);
+   document.getElementById("comenzar").innerHTML = "ACABE";
+
+	}	
+   
+</script>
+<div id="comenzar" class="cu">HOLA</div>
+<a href="p1.html"><button class="pe1s7">PERIODO 1</button></a>
+<a href="index.html"><button class="inis7">INICIO</button></a>
+<a href="eventos.html"><button class="vols7">VOLVER</button></a>
+</body>
+</html>

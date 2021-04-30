@@ -1,0 +1,169 @@
+.fondo{
+	background-image: url(f3.jpg); 
+}
+.fon{
+	position: fixed;
+	width: 40%;
+	height: 870%;
+	background-color: #4682B4;
+	color: black;
+	font-size: 100px;
+	font-family: fuente;
+	left: 70%;
+	top: 0%;
+	opacity: 0.8;
+    
+}
+@font-face{
+	font-family: fuente;
+	src: url(BebasNeue-Regular.otf);
+}
+@font-face{
+	font-family: fuente1;
+	src: url(CaviarDreams.ttf);
+}
+.l{
+	position: absolute;
+    font-family: fuente;
+    font-size: 215%;
+    color: black;
+    left: 35%;
+    top: 18%;
+}
+.l1{
+	position: absolute;
+    font-family: fuente;
+    font-size: 210%;
+    color: black;
+    left: 35%;
+    top: 35%;
+}
+.l2{
+	position: absolute;
+    font-family: fuente;
+    font-size: 210%;
+    color: black;
+    left: 25%;
+    top: 66%;
+}
+.l3{
+	position: absolute;
+    font-family: fuente;
+    font-size: 290%;
+    color: black;
+    left: 14%;
+    top: 12%;
+}
+.l4{
+	position: absolute;
+    font-family: fuente1;
+    font-size: 290%;
+    color: black;
+    left: 76%;
+    top: 63%;
+}
+.c1{
+	position: absolute;
+	left: 32%;
+	top: 26%;
+	width: 30%;
+	height: 5%;
+}
+.c2{
+	position: absolute;
+	left: 32%;
+	top: 42%;
+	width: 30%;
+	height: 5%;
+}
+.c3{
+	position: absolute;
+	left: 37%;
+	top: 74%;
+	width: 24%;
+	height: 5%;
+}
+.c4{
+	position: absolute;
+	left: 39%;
+	top: 53%;
+	width: 19%;
+	height: 5%;
+	color: white;
+	background-color: #619ACA;
+	font-family: fuente;
+    font-size: 115%;
+    color: black;
+    border: 1px solid white;
+}
+.c5{
+	position: absolute;
+	left: 43%;
+	top: 83%;
+	width: 13%;
+	height: 5%;
+	color: white;
+	background-color: #619ACA;
+	font-family: fuente;
+    font-size: 115%;
+    color: black;
+    border: 1px solid white;
+}
+.c6{
+	position: absolute;
+	left: 37%;
+	top: 90%;
+	width: 24%;
+	height: 5%;
+}
+.cu{
+	position: absolute;
+	top: 3%;
+	left: 25%;
+	width: 30%;
+	height: 120%;
+	background-color: #102A3E;
+}
+.cu1{
+	position: absolute;
+	top: 5%;
+	left: 26%;
+	width: 28%;
+	height: 14%;
+	background-color: white;
+	z-index: 100;
+}
+.pe1{
+	position: fixed;
+	top: 90%;
+	left: 76%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.pe1:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}
+.ini{
+	position: fixed;
+	top: 90%;
+	left: 87%;
+	width: 8%;
+	height: 7%;
+	border-radius: 19px;
+	border: 2px solid #708090;
+}
+.ini:hover{
+	background-color: #356C99;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 9%;
+  height: 8%;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Final</title>
+  <link rel="stylesheet" type="text/css" href="estisecre.css">
+  <script>
+    var x=10;
+    var m=0;
+    var pun=0;
+  </script>
+</head>
+<body onkeypress="teclado()"  onload="enemi(); ejecutar()" class="fondo">
+<div class="programador"><div class="cu2" id="cuadra" ></div></div>
+<div class="barra"></div>
+<div class="usuario" onmouseout="posi(event)" onmousedown="mover(event)"><div class="cu1" id="cuadrado" ></div></div>
+<div class="tiempo" id="comen">TIEMPO:</div>
+<div class="nombre">DISPARA AL ENEMIGO</div>
+<div class="score" id="puntos" onload="score()">SCORE:</div>
+<script>
+  function posi(event)
+  {
+    var x = event.clientX;
+    var y = event.clientY;
+    
+  }
+
+function mover(event)
+{
+  var x = event.clientX;
+  var y = event.clientY;
+  cuadrado.style.top= y-130+"px";
+  cuadrado.style.left= x-1020+"px";
+}
+
+
+function teclado(){
+    if(event.code=="KeyA")
+  {  var x = event.clientX;
+  var y = event.clientY;
+    if(mov==x)
+    {
+      if(posy==y){
+       pun+=1;
+    
+       document.getElementById("puntos").innerHTML ="SCORE:"+" "+pun;
+
+    }
+  }   
+}
+}
+
+
+
+   function enemi() {
+    
+        var py = Math.floor(Math.random() * ((400) - 8) + 8);
+        var posy = py+"px";
+        document.getElementById('cuadra').style.top =posy;
+        
+      
+    }
+
+    var mov=1;
+    var moy= function mover()
+
+    {
+      mov+=1;
+      cuadra.style.left=mov+"px";
+      if (mov==1230) {
+        mov=1;
+        enemi();
+      }
+
+    }
+    m=setInterval(moy,1);
+
+    
+
+
+function comenzar() {
+    
+    if (m>=0) {
+        document.getElementById("comen").innerHTML ="TIEMPO:"+" "+m;
+        
+        }
+        m+=1;
+        }
+        function ejecutar(){
+
+  final=setInterval(comenzar,1000);
+}
+
+</script>
+<a href="p1.html"><button class="pe11">PERIODO 1</button></a>
+<a href="index.html"><button class="ini">INICIO</button></a>
+</body>
+</html>

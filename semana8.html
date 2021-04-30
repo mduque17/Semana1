@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio2</title>
+	<link rel="stylesheet" type="text/css" href="estiloss7.css">
+  <script>
+    var m=30;
+    var p=0;
+  </script>
+</head>
+<body onload="ejecutar(); posicion()" class="fondo" >
+<div class="cuadrado" id="cuadra" onmousedown="clic(event)"></div>
+<div class="score" id="m" >SCORE:</div>
+<div class="tiempo" id="comen" onload="ejecutar()">TIEMPO: 30</div>
+<script>
+  function comenzar() {
+    
+    if (m<=20) {
+         m-=1;
+     document.getElementById("comen").innerHTML ="TIEMPO:"+" "+m;
+    
+       
+       if (m==0) {
+       document.getElementById("comen").innerHTML ="TIEMPO:"+" "+m;
+       alert("se acabo el tiempo");
+       alert("Usted obtuvo"+" "+p+" "+"puntos");
+      
+       clearInterval(final);
+p=0;
+document.getElementById("m").innerHTML = "SCORE:"+" "+p;
+       
+        }
+      
+        }
+  }
+ 
+function ejecutar(){
+
+  final=setInterval(comenzar,1000);
+}
+
+  function posicion() {
+		    var px = Math.floor(Math.random() * ((1001) - 20) + 20);
+        var py = Math.floor(Math.random() * ((501) - 80) + 80);
+        cuadra.style.left=px+"px";
+        cuadra.style.top=py+"px";
+
+
+ }
+ function clic(e){
+      var px = Math.floor(Math.random() * ((1001) - 20) + 20);
+      var py = Math.floor(Math.random() * ((501) - 80) + 80);
+      cuadra.style.left=px+"px";
+      cuadra.style.top=py+"px";
+        var x = e.clientX;
+        var y = e.clientY;
+        var coor = "Posicion: (" + x + "," + y + ")";
+  
+        if (x==px) {
+        
+    
+  }
+ p=p+10;
+
+document.getElementById("m").innerHTML = "SCORE:"+" "+p;
+    }
+
+</script>
+<a href="p1.html"><button class="pe11">PERIODO 1</button></a>
+<a href="index.html"><button class="ini">INICIO</button></a>
+
+</body>
+</html>

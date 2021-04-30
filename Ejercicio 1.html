@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 1</title>
+	<link rel="stylesheet" type="text/css" href="estiloss7.css">
+	<script>
+		nu=[0];
+		
+	</script>
+</head>
+<body class="fondo">
+<script>
+	var numero=function()
+	{ 
+
+		var n=document.getElementById("num");
+				s=Number(n.value);
+				nu.push(s);
+			var x=0;
+			 x=nu.length;
+			 x=parseInt(nu.length);
+            if (x>5) {
+				alert("No puede ingresar más numeros");
+	
+			} 
+
+		}
+           
+           var mayor=function(){
+				var maximo = Math.max(...nu);
+				var ver=document.getElementById("resultado");
+				ver.value=maximo;
+
+		}
+				
+
+</script>
+<font class="l1">EJERCICIO 1</font>
+<form>
+<div class="cu">
+		<label>Numeros</label><br>
+		<input type="text" placeholder="Ingrese un numero" class="c" id="num"><br><br>
+		<br>
+		<br>
+		<br>
+		<input type="button" value="INGRESAR" class="b" onclick="numero();">
+		<br>
+		<br>
+		<input type="button" value="BUSCAR" class="b1" onclick="mayor();">
+		<input type="text" placeholder="Valor mayor" class="c1" id="resultado">
+	</div>
+	</form>
+
+	<a href="p1.html"><button class="pe1s7">PERIODO 1</button></a>
+<a href="index.html"><button class="inis7">INICIO</button></a>
+<a href="eventos.html"><button class="vols7">VOLVER</button></a>
+</body>
+</html>
